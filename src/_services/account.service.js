@@ -57,7 +57,7 @@ function getById(id) {
 }
 
 function create(params) {
-    return fetchWrapper.post(baseUrl, params);
+	return fetchWrapper.post(baseUrl, params);
 }
 
 function update(id, params) {

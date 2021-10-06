@@ -42,11 +42,12 @@ module.exports = {
         // global app config object
 		
 		// NOTE: FOR PRODUCTION ON AZURE!!!
-        // config: JSON.stringify({ apiUrl: 'https://pso-express-react-jwt-signup.azurewebsites.net/' })
+         config: JSON.stringify({ apiUrl: 'https://pso-express-react-jwt-signup.azurewebsites.net/' })
 		 
-		// REAL LOCAL BACKEND - FOR TESTING
-		 config: JSON.stringify({ apiUrl:'http://localhost:443' })
-        // WITH FAKE BACKEND
+		// Testing with Node.js and Express Web API
+		// config: JSON.stringify({ apiUrl:'http://localhost:443' })
+        
+		// Testing with ASP.NET Core 2.2 Web API
 		// config: JSON.stringify({ apiUrl:'http://localhost:4000' })
     }
 }
